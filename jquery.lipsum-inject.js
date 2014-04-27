@@ -17,6 +17,13 @@ var lipsum_inject = {
 	
 	init: function() {
 		lipsum_inject.searchAndInject();
+		lipsum_inject.keepAlive();
+	},
+
+	keepAlive: function() {
+		$("a[href]").each(function() {
+			$(this).attr('href', $(this).attr('href') + '?lipsuminject');
+		});
 	},
 
 	searchAndInject: function() {
