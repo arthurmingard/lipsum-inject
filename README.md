@@ -1,5 +1,6 @@
-Lipsum Inject Release 1.0.1
+Lipsum Inject
 =============
+Release 1.0.1
 
 **Really simply Lipsum injector**
 
